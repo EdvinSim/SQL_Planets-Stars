@@ -67,7 +67,7 @@ FROM planet
     INNER JOIN stjerne ON stjerne.navn = planet.stjerne
 WHERE avstand > 8000;
 
---DEL 2
+--DEL 2 
 
 --Oppgave 5a
 INSERT INTO Stjerne
